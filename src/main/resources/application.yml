@@ -1,0 +1,3 @@
+# redis default configspring:
+session:
+  store-type: redis
