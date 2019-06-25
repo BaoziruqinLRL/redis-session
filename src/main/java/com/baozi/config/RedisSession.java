@@ -15,7 +15,7 @@ import org.springframework.session.data.redis.config.annotation.web.http.EnableR
  * @Create: 2018-09-26 17:47
  */
 @Configuration
-@EnableRedisHttpSession(maxInactiveIntervalInSeconds = 60*60*2,redisNamespace = "laidantech_session")
+@EnableRedisHttpSession(maxInactiveIntervalInSeconds = 60*60*2,redisNamespace = "baozi_redis_session")
 public class RedisSession {
 
     @Bean("springSessionDefaultRedisSerializer")
